@@ -67,6 +67,12 @@ section{padding:44px 0;border-top:1px solid var(--line)}
 .btn{display:inline-block;background:linear-gradient(90deg,var(--purple),var(--blue));color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:10px;box-shadow:0 10px 24px rgba(29,99,168,.25)}
 footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);font-size:14px;text-align:center}
 @media (max-width:760px){.story{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.grid img.feature{grid-column:1/-1;order:-1;transform:none;aspect-ratio:4/3}}
+.reviews{display:flex;gap:18px;overflow-x:auto;padding-bottom:14px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.reviews::-webkit-scrollbar{height:8px}
+.reviews::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+.reviews .card{flex:0 0 300px;min-height:280px;display:flex;flex-direction:column;scroll-snap-align:start}
+.reviews .card p{flex:1}
+@media (max-width:760px){.reviews .card{flex:0 0 248px}}
 </style>
 </head>
 <body>
@@ -145,7 +151,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);fo
 </section>
 <section>
  <h2>What Families Are Saying</h2>
- <div class="cards">
+ <div class="reviews">
   <div class="card">
    <h3>Madison R.</h3>
    <p>"I was nervous going into it but honestly had a lot of fun. Learned some stuff I never really thought about before. Definitely glad I went."</p>
