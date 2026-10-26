@@ -20,3 +20,15 @@
 .gallery-three img[src$="rtd-family-portrait.webp"],.community-gallery img[src$="rtd-family-portrait.webp"]{object-fit:contain;object-position:center;background:#f1edf6}
 
 .gallery-three img[src$="rtd-ambassador-outdoors.webp"]{object-fit:cover;object-position:center 25%}
+
+/* Restore the original full reviews and purple/blue-topped cards. */
+.original-reviews{padding:44px 0;background:#fbfafd;border-top:1px solid var(--line)}
+.original-reviews h2{font-size:26px;letter-spacing:.08em;margin-bottom:22px}
+.original-reviews .reviews{display:flex;gap:18px;overflow-x:auto;padding-bottom:14px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.original-reviews .reviews::-webkit-scrollbar{height:8px}
+.original-reviews .reviews::-webkit-scrollbar-thumb{background:#d8cde3;border-radius:8px}
+.original-reviews .card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--purple);border-radius:12px;padding:20px;flex:0 0 300px;min-height:280px;display:flex;flex-direction:column;scroll-snap-align:start}
+.original-reviews .card:nth-child(2){border-top-color:#4a58a3}.original-reviews .card:nth-child(3){border-top-color:var(--blue)}
+.original-reviews .card h3{font-size:19px;letter-spacing:.04em;margin-bottom:6px}
+.original-reviews .card p{color:var(--muted);font-size:15px;flex:1;margin:0}
+@media(max-width:760px){.original-reviews .card{flex-basis:248px}}
