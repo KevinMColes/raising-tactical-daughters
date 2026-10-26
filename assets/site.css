@@ -15,3 +15,6 @@
 .press-band .press .coverage-link{color:var(--blue);font-weight:600;text-decoration:underline;font-size:12px;padding-right:0}
 @media(max-width:1000px){.press-band .press{flex-wrap:wrap;gap:16px}.press-band .press>span{width:100%}.press-band .press>a{padding:2px 16px;flex:initial}.press-band .press>a:first-of-type{border-left:0;padding-left:0}.press-band .press .coverage-link{margin-left:auto}}
 @media(max-width:500px){.press-band .press{gap:15px 0}.press-band .press>a{font-size:11px;padding:2px 11px}.press-band .press .coverage-link{width:100%;border:0;margin:0;text-align:left;padding:5px 0}}
+
+/* Show the ambassador’s full portrait, including her face and shirt logo. */
+.gallery-three img[src$="rtd-community.webp"],.community-gallery img[src$="rtd-community.webp"]{object-fit:contain;object-position:center;background:#f1edf6}
