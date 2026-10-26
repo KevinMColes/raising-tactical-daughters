@@ -7,7 +7,7 @@
 @media print{.site-header,footer,.guide-jump,.guide-sidebar,.speaking-cta,.download-panel,.actions{display:none}.guide-layout{display:block;width:100%;padding:0}.guide-stage{break-before:page}.guide-article{font-size:11px}.page-hero{padding:20px 0;background:none}.conversation,.checklist{break-inside:avoid}a{color:inherit}}
 
 /* Match the approved community crop and full-width press band. */
-.gallery-three img[src$="rtd-community.webp"],.community-gallery img[src$="rtd-community.webp"]{object-position:center top}
+.gallery-three img[src$="rtd-family-portrait.webp"],.community-gallery img[src$="rtd-family-portrait.webp"]{object-position:center top}
 .press-band{background:linear-gradient(100deg,#f0edf8,#eef2fb);border-top:1px solid #e5dff0;border-bottom:1px solid #e5dff0}
 .press-band .press{border:0;flex-wrap:nowrap;gap:0;padding:27px 0}
 .press-band .press>span{padding-right:28px;white-space:nowrap;font-size:24px}
@@ -17,4 +17,4 @@
 @media(max-width:500px){.press-band .press{gap:15px 0}.press-band .press>a{font-size:11px;padding:2px 11px}.press-band .press .coverage-link{width:100%;border:0;margin:0;text-align:left;padding:5px 0}}
 
 /* Show the ambassador’s full portrait, including her face and shirt logo. */
-.gallery-three img[src$="rtd-community.webp"],.community-gallery img[src$="rtd-community.webp"]{object-fit:contain;object-position:center;background:#f1edf6}
+.gallery-three img[src$="rtd-family-portrait.webp"],.community-gallery img[src$="rtd-family-portrait.webp"]{object-fit:contain;object-position:center;background:#f1edf6}
