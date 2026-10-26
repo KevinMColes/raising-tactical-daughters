@@ -5,3 +5,13 @@
 @media(max-width:380px){.site-header nav{gap:14px}.brand>span{font-size:16px}.hero-photos{height:325px}.hero-main{height:295px}.hero-inset{height:175px}.community-gallery{grid-template-columns:1fr}.community-gallery img{height:330px}.button{padding:13px 17px}.speaking-cta h2{font-size:35px}.hero-copy h1{font-size:61px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.site-header,footer,.guide-jump,.guide-sidebar,.speaking-cta,.download-panel,.actions{display:none}.guide-layout{display:block;width:100%;padding:0}.guide-stage{break-before:page}.guide-article{font-size:11px}.page-hero{padding:20px 0;background:none}.conversation,.checklist{break-inside:avoid}a{color:inherit}}
+
+/* Match the approved community crop and full-width press band. */
+.gallery-three img[src$="rtd-community.webp"],.community-gallery img[src$="rtd-community.webp"]{object-position:center top}
+.press-band{background:linear-gradient(100deg,#f0edf8,#eef2fb);border-top:1px solid #e5dff0;border-bottom:1px solid #e5dff0}
+.press-band .press{border:0;flex-wrap:nowrap;gap:0;padding:27px 0}
+.press-band .press>span{padding-right:28px;white-space:nowrap;font-size:24px}
+.press-band .press>a{border-left:1px solid #ccc4db;padding:5px 25px;text-align:center;flex:1;white-space:nowrap}
+.press-band .press .coverage-link{color:var(--blue);font-weight:600;text-decoration:underline;font-size:12px;padding-right:0}
+@media(max-width:1000px){.press-band .press{flex-wrap:wrap;gap:16px}.press-band .press>span{width:100%}.press-band .press>a{padding:2px 16px;flex:initial}.press-band .press>a:first-of-type{border-left:0;padding-left:0}.press-band .press .coverage-link{margin-left:auto}}
+@media(max-width:500px){.press-band .press{gap:15px 0}.press-band .press>a{font-size:11px;padding:2px 11px}.press-band .press .coverage-link{width:100%;border:0;margin:0;text-align:left;padding:5px 0}}
