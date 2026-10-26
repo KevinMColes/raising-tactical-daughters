@@ -18,3 +18,5 @@
 
 /* Show the ambassador’s full portrait, including her face and shirt logo. */
 .gallery-three img[src$="rtd-family-portrait.webp"],.community-gallery img[src$="rtd-family-portrait.webp"]{object-fit:contain;object-position:center;background:#f1edf6}
+
+.gallery-three img[src$="rtd-ambassador-outdoors.webp"]{object-fit:cover;object-position:center 25%}
