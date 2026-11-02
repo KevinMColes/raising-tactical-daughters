@@ -1,0 +1,19 @@
+# Raising Tactical Daughters
+
+> Raising Tactical Daughters (RTD) is a situational-awareness and personal-safety education initiative founded by Kevin M. Coles in Peoria, Arizona in 2019. It teaches awareness, de-escalation, and practical safety skills to women and girls, offers free guides for parents and employees, and provides speaking and training sessions for schools, parent groups, and workplaces. RTD has reached more than 150,000 people across 35 states and 4 countries.
+
+## Guides
+
+- [Raising Her Ready](https://raisingtacticaldaughters.com/raising-her-ready/): A complete father's guide to raising confident daughters, age by age: boundaries, sleepovers, first phones, parties, rideshares, and independence. Includes a free companion PDF.
+- [Ready at Work](https://raisingtacticaldaughters.com/ready-at-work/): A free guide to workplace harassment, retaliation, and personal safety at work, covering how to document and report incidents, business travel safety, workplace violence, and domestic violence that follows someone to work. Includes a free companion PDF.
+
+## About
+
+- [Our Story](https://raisingtacticaldaughters.com/our-story/): How Kevin M. Coles founded Raising Tactical Daughters in 2019, inspired by his first daughter, and built a community around awareness, preparation, and confidence.
+- [Community](https://raisingtacticaldaughters.com/community/): Photographs, historical reach, participant reflections, and media coverage of Raising Tactical Daughters and Kevin M. Coles.
+- [Speaking](https://raisingtacticaldaughters.com/speaking/): Book Kevin M. Coles for workplace safety training and parent talks, including harassment prevention, retaliation, workplace violence awareness, travel safety, and domestic violence in the workplace.
+
+## Notes
+
+- RTD is operated as a DBA of Kevin M. Coles LLC. Kevin M. Coles is also the founder of Coles Technical Group (colestechnicalgroup.com) and maintains a personal site at kevinmcoles.com.
+- This file follows the llms.txt convention (https://llmstxt.org) to help AI systems understand and accurately represent this site's content.
