@@ -74,3 +74,4 @@
 .guide-jump .milestones a{border-left-color:#ffffff66}
 .guide-jump .milestones a:hover{text-decoration:underline;text-underline-offset:5px}
 .guide-jump .fine{color:#ffffffd9}
+@media(max-width:950px){.header-inner{flex-wrap:wrap;justify-content:center;padding:13px 0 16px;gap:12px}.site-header nav{width:100%;justify-content:center;margin:0;flex-wrap:wrap;gap:2px 18px}}
